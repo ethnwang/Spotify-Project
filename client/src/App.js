@@ -26,7 +26,7 @@ class App extends Component{
 
     return (
       <div class="info">
-        {/* <i id="spotify" class="fab fa-spotify fa-2x"></i> */}
+        <i id="spotify" class="fab fa-spotify fa-2x"></i>
         <h1>The number of your saved songs!</h1>
         <p>{songs}</p>
       </div>
