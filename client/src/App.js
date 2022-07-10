@@ -25,11 +25,13 @@ class App extends Component{
     const {songs} = this.state
 
     return (
+      <>
       <div class="info">
-        <i id="spotify" class="fab fa-spotify fa-2x"></i>
+        <i id="spotify" class="fa-brands fa-spotify fa-4x"></i>
         <h1>The number of your saved songs!</h1>
-        <p>{songs}</p>
+        <p>{songs} total songs saved!</p>
       </div>
+      </>
     )
   }
 }
