@@ -4,7 +4,7 @@ class App extends Component{
 
   constructor(){
     super()
-    this.state = { songs: 0};
+    this.state = { songs: 0}
   }
 
   componentDidMount(){
@@ -22,7 +22,7 @@ class App extends Component{
 
   render() {
 
-    const {songs} = this.state
+    const {songs, items} = this.state
 
     return (
       <>
