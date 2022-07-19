@@ -1,20 +1,22 @@
 body {
   text-align: center;
   font-size: 40px;
-  padding: 35vh 10px 40vh 10px;
   background: linear-gradient(to right, #f12711, #f5af19);
-  width: 800px;
   margin: 0 auto;
+  width: 800px;
+  align-items: center;
+  justify-content: center;
 }
 
 .info {
+  margin: auto;
   border: 4px solid black;
   box-shadow: 4px 4px 8px #333;
   border-radius: 20px;
   padding: 16px;
   border-width: 2px;
   width: 900px;
-  
+  justify-content: center;
 }
 
 #spotify {

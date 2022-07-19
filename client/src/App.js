@@ -1,5 +1,9 @@
 import React, {Component} from 'react'
 import './App.css'
+import SimpleSlider from './components/carousel.js';
+import "slick-carousel/slick/slick.css"; 
+import "slick-carousel/slick/slick-theme.css";
+
 class App extends Component{
 
   constructor(){
@@ -22,7 +26,7 @@ class App extends Component{
 
   render() {
 
-    const {songs, items} = this.state
+    const {songs} = this.state
 
     return (
       <>
@@ -31,6 +35,7 @@ class App extends Component{
         <h1>The number of your saved songs!</h1>
         <p>{songs} total songs saved!</p>
       </div>
+      <SimpleSlider/>
       </>
     )
   }
